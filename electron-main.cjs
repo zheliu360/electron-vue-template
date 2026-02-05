@@ -2,6 +2,7 @@ const { app, BrowserWindow, Menu } = require('electron')
 const path = require('path');
 const { autoUpdater } = require('electron-updater');
 const { dialog } = require('electron');
+
 function createWindow() {
   const win = new BrowserWindow({
     width: 800,

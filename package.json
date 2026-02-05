@@ -15,6 +15,7 @@
     "release:publish": "electron-builder --publish=always"
   },
   "dependencies": {
+    "electron-store": "^11.0.2",
     "electron-updater": "^6.7.3",
     "vue": "^3.5.27",
     "vue-router": "^5.0.1"
