@@ -36,9 +36,8 @@
     "files": [
       "dist/**/*",
       "electron-main.cjs",
-      "preload.cjs",
       "package.json",
-      "node_modules/**/*"
+      "lib/**/*"
     ],
     "directories": {
       "buildResources": "build",

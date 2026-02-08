@@ -10,7 +10,7 @@ function createWindow() {
       contextIsolation: true,
       nodeIntegration: false,
       devTools: true,
-      preload: path.join(__dirname, 'preload.cjs')
+      preload: path.join(__dirname, 'lib', 'preload.cjs')
     }
   });
   Menu.setApplicationMenu(null);
@@ -22,8 +22,8 @@ function createWindow() {
     }
   });
 
-  mainWindow.loadURL('http://localhost:5173');
-  //mainWindow.loadFile(path.join(__dirname, 'dist', 'index.html'));
+  //mainWindow.loadURL('http://localhost:5173');
+  mainWindow.loadFile(path.join(__dirname, 'dist', 'index.html'));
 }
 
 
